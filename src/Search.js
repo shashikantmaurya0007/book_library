@@ -24,7 +24,7 @@ const Search = () => {
         if(!query){
             return books;
         }
-        return books.filter(name => name.title.includes(query));
+        return books.filter(name => name.title.includes(query.toLowerCase()));
     }
     const filteredBooks = getFilteredBooks(query, books);
 

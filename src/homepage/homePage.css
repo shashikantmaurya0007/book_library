@@ -22,7 +22,7 @@
     justify-content: space-evenly;
     flex-direction: column;
 }
-.readbooks{
+/* .readbooks{
     display: flex;
     justify-content: space-evenly;
     margin: 0px 2px;
@@ -35,4 +35,4 @@
 .continuetoreadbooks{
     display: flex;
     justify-content: space-evenly;
-}
+} */
