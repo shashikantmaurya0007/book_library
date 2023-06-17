@@ -1,0 +1,38 @@
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: aqua;
+    margin-bottom: 2px;
+}
+.header span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.txt{
+    color: white;
+}
+.category{
+    height: auto;
+    max-width: 800px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.readbooks{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px 2px;
+    
+}
+.wanttoreadbooks{
+    display: flex;
+    justify-content: space-evenly;
+}
+.continuetoreadbooks{
+    display: flex;
+    justify-content: space-evenly;
+}
